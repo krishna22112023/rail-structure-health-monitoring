@@ -1,0 +1,62 @@
+{"asctime": "2025-02-14T16:01:12+0800", "process": 5275, "name": "utils.logger", "levelname": "INFO", "message": "Successfully loaded custom logging configuration."}
+{"asctime": "2025-02-14T16:01:12+0800", "process": 5275, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Processing 40 images from category: Cracks"}
+{"asctime": "2025-02-14T16:01:13+0800", "process": 5275, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Processing 2829 images from category: Flakings"}
+{"asctime": "2025-02-14T16:02:05+0800", "process": 5275, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Processing 130 images from category: Shellings"}
+{"asctime": "2025-02-14T16:02:08+0800", "process": 5275, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Processing 291 images from category: Spallings"}
+{"asctime": "2025-02-14T16:02:13+0800", "process": 5275, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Processing 1844 images from category: Squats"}
+{"asctime": "2025-02-14T16:02:47+0800", "process": 5275, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Feature matrix shape: (5134, 76896)"}
+{"asctime": "2025-02-14T16:02:48+0800", "process": 5275, "name": "__main__", "levelname": "INFO", "message": "Feature extraction completed."}
+{"asctime": "2025-02-14T16:05:03+0800", "process": 5817, "name": "utils.logger", "levelname": "INFO", "message": "Successfully loaded custom logging configuration."}
+{"asctime": "2025-02-14T16:14:53+0800", "process": 7444, "name": "utils.logger", "levelname": "INFO", "message": "Successfully loaded custom logging configuration."}
+{"asctime": "2025-02-14T16:14:56+0800", "process": 7444, "name": "__main__", "levelname": "INFO", "message": "Data splits created."}
+{"asctime": "2025-02-14T16:14:56+0800", "process": 7444, "name": "__main__", "levelname": "INFO", "message": "Training set shape: torch.Size([3593, 76896])"}
+{"asctime": "2025-02-14T16:14:56+0800", "process": 7444, "name": "__main__", "levelname": "INFO", "message": "Validation set shape: torch.Size([1027, 76896])"}
+{"asctime": "2025-02-14T16:14:56+0800", "process": 7444, "name": "__main__", "levelname": "INFO", "message": "Test set shape: torch.Size([514, 76896])"}
+{"asctime": "2025-02-23T16:43:06+0800", "process": 89817, "name": "utils.logger", "levelname": "INFO", "message": "Successfully loaded custom logging configuration."}
+{"asctime": "2025-02-23T16:43:31+0800", "process": 90183, "name": "utils.logger", "levelname": "INFO", "message": "Successfully loaded custom logging configuration."}
+{"asctime": "2025-02-23T16:43:31+0800", "process": 90183, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 40 overlayed images for category: Cracks"}
+{"asctime": "2025-02-23T16:43:32+0800", "process": 90183, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 2829 overlayed images for category: Flakings"}
+{"asctime": "2025-02-23T16:43:35+0800", "process": 90183, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 130 overlayed images for category: Shellings"}
+{"asctime": "2025-02-23T16:43:35+0800", "process": 90183, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 291 overlayed images for category: Spallings"}
+{"asctime": "2025-02-23T16:43:36+0800", "process": 90183, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 1844 overlayed images for category: Squats"}
+{"asctime": "2025-02-23T16:43:38+0800", "process": 90183, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Overlayed images array shape: (5134, 720, 200, 3)"}
+{"asctime": "2025-02-23T16:43:38+0800", "process": 90183, "name": "__main__", "levelname": "INFO", "message": "Overlayed image extraction completed."}
+{"asctime": "2025-02-23T17:24:00+0800", "process": 92963, "name": "utils.logger", "levelname": "INFO", "message": "Successfully loaded custom logging configuration."}
+{"asctime": "2025-02-23T17:26:32+0800", "process": 93305, "name": "utils.logger", "levelname": "INFO", "message": "Successfully loaded custom logging configuration."}
+{"asctime": "2025-02-23T17:26:35+0800", "process": 93305, "name": "__main__", "levelname": "INFO", "message": "Data splits created."}
+{"asctime": "2025-02-23T17:26:35+0800", "process": 93305, "name": "__main__", "levelname": "INFO", "message": "Training set shape: torch.Size([3593, 76896])"}
+{"asctime": "2025-02-23T17:26:35+0800", "process": 93305, "name": "__main__", "levelname": "INFO", "message": "Validation set shape: torch.Size([1027, 76896])"}
+{"asctime": "2025-02-23T17:26:35+0800", "process": 93305, "name": "__main__", "levelname": "INFO", "message": "Test set shape: torch.Size([514, 76896])"}
+{"asctime": "2025-02-23T17:27:00+0800", "process": 93397, "name": "utils.logger", "levelname": "INFO", "message": "Successfully loaded custom logging configuration."}
+{"asctime": "2025-02-23T17:27:08+0800", "process": 93397, "name": "__main__", "levelname": "INFO", "message": "Data splits created."}
+{"asctime": "2025-02-23T17:27:08+0800", "process": 93397, "name": "__main__", "levelname": "INFO", "message": "Training set shape: torch.Size([3593, 720, 200, 3])"}
+{"asctime": "2025-02-23T17:27:08+0800", "process": 93397, "name": "__main__", "levelname": "INFO", "message": "Validation set shape: torch.Size([1027, 720, 200, 3])"}
+{"asctime": "2025-02-23T17:27:08+0800", "process": 93397, "name": "__main__", "levelname": "INFO", "message": "Test set shape: torch.Size([514, 720, 200, 3])"}
+{"asctime": "2025-02-23T18:07:51+0800", "process": 98669, "name": "utils.logger", "levelname": "INFO", "message": "Successfully loaded custom logging configuration."}
+{"asctime": "2025-02-23T18:07:51+0800", "process": 98669, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 40 overlayed images for category: Cracks"}
+{"asctime": "2025-02-23T18:07:51+0800", "process": 98669, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 2829 overlayed images for category: Flakings"}
+{"asctime": "2025-02-23T18:07:54+0800", "process": 98669, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 130 overlayed images for category: Shellings"}
+{"asctime": "2025-02-23T18:07:54+0800", "process": 98669, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 291 overlayed images for category: Spallings"}
+{"asctime": "2025-02-23T18:07:55+0800", "process": 98669, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 1844 overlayed images for category: Squats"}
+{"asctime": "2025-02-23T18:07:57+0800", "process": 98669, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Overlayed images array shape: (5134, 3, 720, 200)"}
+{"asctime": "2025-02-23T18:07:58+0800", "process": 98669, "name": "__main__", "levelname": "INFO", "message": "Overlayed image extraction completed."}
+{"asctime": "2025-02-23T18:11:59+0800", "process": 99525, "name": "utils.logger", "levelname": "INFO", "message": "Successfully loaded custom logging configuration."}
+{"asctime": "2025-02-23T18:11:59+0800", "process": 99525, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 40 overlayed images for category: Cracks"}
+{"asctime": "2025-02-23T18:11:59+0800", "process": 99525, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 2829 overlayed images for category: Flakings"}
+{"asctime": "2025-02-23T18:12:02+0800", "process": 99525, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 130 overlayed images for category: Shellings"}
+{"asctime": "2025-02-23T18:12:02+0800", "process": 99525, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 291 overlayed images for category: Spallings"}
+{"asctime": "2025-02-23T18:12:02+0800", "process": 99525, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 1844 overlayed images for category: Squats"}
+{"asctime": "2025-02-23T18:12:05+0800", "process": 99525, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Overlayed images array shape: (5134, 3, 720, 200)"}
+{"asctime": "2025-02-23T18:12:05+0800", "process": 99525, "name": "__main__", "levelname": "INFO", "message": "Overlayed image extraction completed."}
+{"asctime": "2025-02-23T18:16:09+0800", "process": 1419, "name": "utils.logger", "levelname": "INFO", "message": "Successfully loaded custom logging configuration."}
+{"asctime": "2025-02-23T18:16:09+0800", "process": 1419, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 40 overlayed images for category: Cracks"}
+{"asctime": "2025-02-23T18:16:09+0800", "process": 1419, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 2829 overlayed images for category: Flakings"}
+{"asctime": "2025-02-23T18:16:11+0800", "process": 1419, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 130 overlayed images for category: Shellings"}
+{"asctime": "2025-02-23T18:16:11+0800", "process": 1419, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 291 overlayed images for category: Spallings"}
+{"asctime": "2025-02-23T18:16:11+0800", "process": 1419, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Found 1844 overlayed images for category: Squats"}
+{"asctime": "2025-02-23T18:16:14+0800", "process": 1419, "name": "src.services.feature_extractor", "levelname": "INFO", "message": "Overlayed images array shape: (5134, 3, 720, 200)"}
+{"asctime": "2025-02-23T18:16:14+0800", "process": 1419, "name": "__main__", "levelname": "INFO", "message": "Overlayed image extraction completed."}
+{"asctime": "2025-02-23T18:16:22+0800", "process": 1419, "name": "__main__", "levelname": "INFO", "message": "Data splits created."}
+{"asctime": "2025-02-23T18:16:22+0800", "process": 1419, "name": "__main__", "levelname": "INFO", "message": "Training set shape: torch.Size([3593, 3, 720, 200])"}
+{"asctime": "2025-02-23T18:16:22+0800", "process": 1419, "name": "__main__", "levelname": "INFO", "message": "Validation set shape: torch.Size([1027, 3, 720, 200])"}
+{"asctime": "2025-02-23T18:16:22+0800", "process": 1419, "name": "__main__", "levelname": "INFO", "message": "Test set shape: torch.Size([514, 3, 720, 200])"}

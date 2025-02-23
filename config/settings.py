@@ -26,8 +26,17 @@ class GeneralSettings(BaseSettings, PathInfo):
 
     model_config = SettingsConfigDict(case_sensitive=True)
 
+    #categories should have same names as folder names in dataset/processed
+    CATEGORIES : list = ["Cracks", "Flakings", "Shellings", "Spallings", "Squats"]
+
+    model_name : str = "cnn" #random_forest/grad_boost/ann/cnn
+
+    model_params : str = "config/model_configs/cnn.json"
+
+    use_hog_features : bool = False #set to false if you are using CNN or other deep learning models
+
     # Database configuration
-    DATABASE_URL: str  # PostgreSQL connection string (e.g., postgresql://user:pass@localhost:5432/db)
+    '''DATABASE_URL: str  # PostgreSQL connection string (e.g., postgresql://user:pass@localhost:5432/db)
     POSTGRES_URL: str
 
     # MinIO/S3 configuration
@@ -36,22 +45,5 @@ class GeneralSettings(BaseSettings, PathInfo):
     AWS_SECRET_ACCESS_KEY: str  # MinIO secret key
     AWS_BUCKET_NAME: str  # Target bucket name
 
-    # Camera settings
-    CAMERA_RESOLUTION: tuple = (1024, 768)
-    CAMERA_BRIGHTNESS: int = 60
-    MODALITY: Literal["image", "video"] = "image"
-    CAMERA_INTERVAL: Optional[int] = 5 #in seconds
-    
-    # GPIO settings (TO BE SET UP BY USER)
-    GPIO_PINS: Dict[str, int] = {
-        "IN1": 7,
-        "IN2": 11,
-        "IN3": 3,
-        "IN4": 5
-    }
-
-    # GPS settings
-    GPS_PORT: str = '/dev/ttyAMA0'
-    GPS_BAUDRATE: int = 9600
-    GPS_MAX_ATTEMPTS: int = 3
+    '''
 

@@ -1,0 +1,13 @@
+click
+scikit-image
+numpy
+scipy
+matplotlib
+scikit-learn
+seaborn
+pyprojroot
+dotenv
+pydantic_settings
+torch
+python-json-logger
+tqdm
