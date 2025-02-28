@@ -26,32 +26,36 @@ class GeneralSettings(BaseSettings, PathInfo):
 
     model_config = SettingsConfigDict(case_sensitive=True)
 
-    # Database configuration
-    DATABASE_URL: str  # PostgreSQL connection string (e.g., postgresql://user:pass@localhost:5432/db)
-    POSTGRES_URL: str
+    #categories should have same names as folder names in dataset/processed
+    CATEGORIES : list = ["Cracks", "Flakings", "Shellings", "Spallings", "Squats"]
 
-    # MinIO/S3 configuration
-    AWS_ENDPOINT_URL: str  # MinIO server endpoint
-    AWS_ACCESS_KEY_ID: str  # MinIO access key
-    AWS_SECRET_ACCESS_KEY: str  # MinIO secret key
-    AWS_BUCKET_NAME: str  # Target bucket name
+    #preprocess params 
+    #cropping params
+    crop_width : int = 200
+    left_offset : float = 0.15
+    right_offset : float = 0.6
+    #bilateral filter params
+    diameter_neighbor_pixel : int = 3
+    sigma_color : float = 75
+    sigma_space : float = 75
+    #CLAHE params
+    clip_limit : float = 2
+    tile_grid_size : tuple = (8, 8)
+    #laplacian sharpening params
+    weight : float = 1.75
+    #sobel edge detection params
+    scales : list = [3, 5, 7]
+    #morphological operations params
+    morph_kernel : tuple = (2,2)
 
-    # Camera settings
-    CAMERA_RESOLUTION: tuple = (1024, 768)
-    CAMERA_BRIGHTNESS: int = 60
-    MODALITY: Literal["image", "video"] = "image"
-    CAMERA_INTERVAL: Optional[int] = 5 #in seconds
-    
-    # GPIO settings (TO BE SET UP BY USER)
-    GPIO_PINS: Dict[str, int] = {
-        "IN1": 7,
-        "IN2": 11,
-        "IN3": 3,
-        "IN4": 5
-    }
+    #model params
+    model_name : str = "cnn" #random_forest/grad_boost/ann/cnn
+    model_params : str = "config/model_configs/cnn.json"
 
-    # GPS settings
-    GPS_PORT: str = '/dev/ttyAMA0'
-    GPS_BAUDRATE: int = 9600
-    GPS_MAX_ATTEMPTS: int = 3
+    #hog feature extraction params
+    orientations : int = 9
+    pixels_per_cell : tuple = (8, 8)
+    cells_per_block : tuple = (2, 2)
+    visualize : bool = False
+    use_hog_features : bool = False #set to false if you are using CNN or other deep learning models
 
